@@ -1,0 +1,158 @@
+i/o stream is for flow of data
+
+
+
+FileInputStream and FileOutputStream is used for reading and writing binary files
+reader and writer for the unicode file reading
+
+
+thread is a worker and runnable is a task
+thread and runnable will be tightly coupled
+Executers:when we want to create thread pool(pool of thread instances)
+
+ExecutorService service=Executors.newFixedThreadPool(4);
+service.execute(()->{
+
+javascript or ecmaScript 2020
+Typescript
+ReactJS
+Angular
+Node.js
+Express.JS
+MongoDb
+Mern | Mean
+Spring core
+Spring aop
+Spring MVC
+Spring BOOt
+Microservices architecture
+devops(git,docker,kubernetes)
+cloud
+
+
+<p>Object Oriented</p>
+<p>Functional Programming</p>
+<p>Event Driven Programming</p>
+
+<p>M  -> MongoDB</p>
+<p>E  -> ExpressJS</p>
+<p>R  -> REACTJS</p>
+<p>N  -> Node.Js</p>
+
+v8 engine is the same engine in node.js which is in the chrome browser
+v8 engine is used to run the js in the browser
+
+javascript:
+
+javaScript is dynamically typed-don't have to declare the type of the script(compiled and interpreted)
+
+java is statically typed
+
+
+*script tag should be placed in the body tag and not in the head bcz first the body content will be rendered and then script
+
+*when we have ' src ' there shouldn't be inside the body bcz it only executes the src 
+*script is not a self closing tag
+*the order of execution is imp so as the order of script
+defer is used to wait for the previous to execute
+
+8 primitive types-fixed size in java
+int char
+reference types are of dynamic( heap memory )or of the garbage values
+var orderid=90 where the datatype is not declared
+there is no int float double and all ... only number
+undefined is also a type
+
+
+//primitive data types
+
+//number=>wrapper type=number   
+//string=>wrapper type=string
+//boolean=>wrapper type=boolean
+//function and object are also type
+//undefined=>wrapper type=undefined
+
+
+if 'use strict'(all the declarations are valid) keyword is used then var keyword should be used if not only orderid can be used 
+Null is also a object type
+
+
+pocessorder('A2345')
+function pocessorder(orderid){
+    console.log('Processing Order',orderid);
+}
+Hoisting:
+javascript by default places declaration even if it is written down
+
+function can be used as a variable. when it is used as a variable hoisting method will not work
+
+var processorder=function(orderid='0000'){
+    console.log('Processing Order',orderid);
+}
+// functions with default parameter
+
+it takes the default value as 0000
+
+same as function hoisting here is variable hoisting 
+if *var* is not written before it we can access outside the function
+
+var pocessorder=function pocessorder(orderid){
+   * var * productname='iphone12'
+    console.log('Processing Order',orderid)
+}
+
+if *var* is used inside the function it cannot be accessed outside the function
+
+pocessorder(); should be invoked and not pocessorder;
+
+
+if the case1 and case2 is same this can be done
+case 1:
+case 2:
+       sm=10;
+       break;
+default:sm=19;
+
+
+if default case is not defined then the output will be undefined
+
+for (var i = 0; i < 5; i++) {
+
+}
+console.log(i);
+
+works in js not in java
+
+but below one gives error becz *let* uses block scoping
+for (*let* i = 0; i < 5; i++) {
+
+}
+console.log(i);
+/////////error
+*let* limits the usage of i inside the for loop
+
+
+for (const i = 0; i < 5; i++) {
+}
+//////////error 
+constant variable=cannot reinstantiate the value
+
+{
+    let age=10
+}
+console.log(age);
+/////////errror
+let limits the usage of age inside the loop
+
+sort inbuilt-function is used to iterate on array
+
+// const sorted= function(p1,p2){
+//     return p1.price-p2.price
+// }
+
+
+Arrow function:
+const sorted=(p1,p2)=> p1.price-p2.price
+============================= lambda function is used
+
+
