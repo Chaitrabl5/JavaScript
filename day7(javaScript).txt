@@ -1,0 +1,61 @@
+filter will return a new array
+Arrow function will make the job easy
+reduce will take the function as parameter( function's previous value and next value)
+
+reduce(preval,nextval)=> preval+=nextval,10
+
+10 adds to preval
+
+
+array destructuring
+[a,b]=[b,a]
+
+difference between oop programming and functional programming
+
+functional programming-1903's
+relay on functions rather than objects
+
+
+callback functions-
+
+
+declarative functions 
+
+imperative functions
+
+template literals=${a}
+
+class Main{
+   * static * display(shape){
+        console.log('area of ${shape} is ${shape.calulateArea()}');
+    }
+}
+if static is removed then we have to create a object for that function
+new Main().display(new Rectangle(23.4,34.5))
+
+
+toString will be implicitly called whenever the object is called
+
+defAULT module can be imported using any name 
+
+
+modularity is a key (organising)
+module bundler-to bind everything into single js file
+webpack-load your modules and bundle everything
+1)package.json=define all dependencies
+
+npm init --y
+npm install --save-dev webpack
+run webpack
+or
+npx webpack
+npx webpack init
+2)htmlwebpackplugin
+
+node dist/main
+npm install --save-dev html-webpack-plugin
+
+npm i --save-dev html-webpack-plugin
+
+plugins:[new HtmlWebpackPlugin()],
+in webpack.config.js is important
