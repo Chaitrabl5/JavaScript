@@ -1,0 +1,8 @@
+in js the function is considered as variable so
+settimeout(xy,3000) and not settimeout(xy(),3000)
+
+fetch()=returns the promise 
+async and awake simplifies the promise
+
+fetch(url,object)
+object=key value pairs

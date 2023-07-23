@@ -1,0 +1,74 @@
+dependencies(downloaded from npm registry) are required when our product goes to production 
+
+html webpack plugin-generate html files and inject the scripts
+
+webpackconfig.js- when we run webpack it goes and searches this file to start the entry
+
+js is event driven language and asynchronous(not with time) and is of single thread
+i.e, script execution happens in single thread
+**** js runs on asynchronous asynchronous asynchronous--donot have to wait for the execution of the other.
+
+
+setTimeOut will be called after 1000ms
+call stack---
+setTime is placed in the heap rather than call stack so is executed later even the tome is set to the 000000000000000000000.
+heap - unstructured block of memory
+
+
+
+callback IS A FUNCTION which  gets executes after the other function completes its execution
+
+promise=it is an objects that traps asynchronous execution and notifies when it completes 
+
+promise in 3 state:
+pending
+fullfilled
+rejected
+
+
+await(simplyfying promises)= await for the promise to complete
+await is valid only in async functions
+
+
+AJAX=asynchronous javascript and xml
+help us to make a call to the server , we donot have to refresh the page gets reloaded itself
+
+
+npx json-server products.json --id productI
+d --port 8888
+
+
+in command prompt:
+
+npm install -g json-server
+
+ json-server products.json --id productI
+d --port 8888
+
+in es2022dom
+copy webpack and json
+npm install
+npx webpack
+
+
+export default new HttpClient();// exporting an object
+export default HttpClient();//class export
+
+JSON=stringify and pass
+converting json string=stringify
+
+
+bootstrap is a css5 library which is to make the pages responsive
+
+
+queryselector will give one single 1st node
+
+=== typesafe comparision 3 "="
+
+
+
+
+
+
+
+
