@@ -1,0 +1,1 @@
+console.log('My first script loaded from the script1.js')
